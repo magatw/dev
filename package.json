@@ -2,6 +2,9 @@
   "name": "dev",
   "version": "1.0.0",
   "dependencies": {
-    "buffer-replace": "^1.0.0"
+    "buffer-replace": "^1.0.0",
+    "fs-extra": "^4.0.2",
+    "line-by-line": "^0.1.5",
+    "xml2js": "^0.4.19"
   }
 }
