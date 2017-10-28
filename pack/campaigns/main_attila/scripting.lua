@@ -85,7 +85,7 @@ end;
 cm:register_first_tick_callback(
 	function()
 		if is_function(start_game_for_faction) then
-			start_game_for_faction(false);		-- set to false to not show cutscene
+			start_game_for_faction(true);		-- set to false to not show cutscene
 		else
 			script_error("start_game_for_faction() function is being called but hasn't been loaded - the script has gone wrong somewhere else, investigate!");
 		end;
